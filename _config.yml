@@ -1,0 +1,29 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "blog/page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: pygments
+markdown: kramdown
+
+title: MicroJamJar
+description: Putting the fun into programmable gate arrays
+disqus: ujamjar
+author:
+  name: MicroJamJar
+  email: andy.ray@ujamjar.com
+  github: ujamjar
+#  twitter: dbtek
+#  pinterest: asd123
+#  linkedin: asd123
+  bio: (fun programmable -> [|gate|])
+  email_md5: 726351295ec82e145928582f595aa3aa
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+products_path: products/index.html
+open_source_path: open_source/index.html
+blog_path: blog/index.html
+
+BASE_PATH:
