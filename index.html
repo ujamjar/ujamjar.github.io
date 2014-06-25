@@ -37,9 +37,17 @@ tagline:
 
 <h2 class="main-heading">Latest blogs</a></h2>
 
-{% for post in site.posts limit:3 %}
+{% assign counter = 0 %}
+
+{% for post in site.posts %}
 
 <article class="home">
+
+  <!-- show 3 posts, but not from open-source or products -->
+  {% if counter < 3 %}
+  {% if post.categories contains 'open-source' %}
+  {% elsif post.categories contains 'products' %}
+  {% else %}
 
   <span class="post-date">
     {% assign d = post.date | date: "%d" | plus:'0' %}
@@ -70,6 +78,11 @@ tagline:
     {% endif %}
     {% endif %}
   </div>
+
+  {% assign counter = counter | plus: 1 %}
+
+  {% endif %}
+  {% endif %}
 
 </article>
 {% endfor %}

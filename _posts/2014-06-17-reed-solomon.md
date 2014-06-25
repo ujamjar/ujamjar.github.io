@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reed-Solomon
-categories: [open-source]
+categories: [open-source,ocaml]
 tags: [ocaml, error-correction-coding]
 jqmath: true
 extrajs: [ assets/js/rswebdemo.js ]

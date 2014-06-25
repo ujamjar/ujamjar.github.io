@@ -7,7 +7,7 @@ highlighter: pygments
 markdown: kramdown
 
 title: MicroJamJar
-description: Putting the fun into programmable gate arrays
+description: (fun programmable -> [|gate|])
 disqus: ujamjar
 author:
   name: MicroJamJar

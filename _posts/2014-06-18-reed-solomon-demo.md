@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Reed-Solomon Interactive Demo
-categories: [demo]
+categories: [demo,ocaml]
 tags: [ocaml, reed-solomon, error-correction-coding, demo]
 jqmath: true
 extrajs: [ assets/js/rswebdemo.js ]
