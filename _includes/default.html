@@ -27,6 +27,10 @@
 	<link href="{{ site.BASE_PATH }}/assets/resources/mathscribe/jqmath-0.4.0.css" rel="stylesheet">
   {% endif %}
 
+  {% for css in page.extracss %}
+  <link href="{{ site.BASE_PATH }}/{{ css }}" rel="stylesheet">
+  {% endfor %}
+
 	<!-- fav and touch icons -->
 	<!-- Update these with your own images
 	<link rel="shortcut icon" href="images/favicon.ico">
