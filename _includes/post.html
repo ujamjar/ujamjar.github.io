@@ -16,6 +16,12 @@
 	   {% endcase %}
 	   {{ page.date | date: "%Y" }}
 	 </span>
+   {% if page.author %}
+   <span class="post-author">
+     {{page.author}}
+   </span>
+   {% endif %}
+
 	  <div class="article_body">
 	  {{ content }}
 	  </div>
