@@ -5,6 +5,7 @@ categories: [ocaml]
 tags: [ocaml, cpu]
 jqmath: false
 extrajs: [ assets/resources/ace/ace.js, assets/js/ttcwebdemo.js  ]
+disqus: true
 ---
 
 Thackers Tiny Computer 3 (TTC) is one in a series of simple RISC processor cores designed

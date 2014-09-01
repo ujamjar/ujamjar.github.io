@@ -4,6 +4,7 @@ title: OCaml and IOCaml on Android
 categories: [ocaml]
 tags: [ocaml, iocaml, gnuroot]
 author: Martyn Riley
+disqus: true
 ---
 
 Recently I was looking for an Ocaml solution for the Nexus 7. There are a 
