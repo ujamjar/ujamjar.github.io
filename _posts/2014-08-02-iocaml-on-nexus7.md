@@ -59,7 +59,7 @@ Add the line ... `deb http://http.debian.net/debian wheezy-backports main` to so
 $ vim /etc/apt/sources.list
 ~~~
 
-Install library dependancies
+Install library dependencies
 
 ~~~
 $ apt-get install m4 zlib1g-dev libffi-dev libssl-dev libzmq3-dev
@@ -69,7 +69,6 @@ Finally install the opam packages [iocaml]( https://github.com/andrewray/iocaml 
 and [hardcaml]( https://github.com/ujamjar/hardcaml ).
 
 ~~~
-$ apt-get install zlib1g-dev libffi-dev libssl-dev libzmq3-dev
 $ opam install hardcaml iocaml
 ~~~
 
