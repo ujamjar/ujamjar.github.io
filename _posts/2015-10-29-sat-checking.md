@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SAT solving and HardCaml
-categories: [open-source,ocaml,hardcaml]
+categories: [ocaml,hardcaml]
 tags: [ocaml, sat]
 jqmath: true
 ---
