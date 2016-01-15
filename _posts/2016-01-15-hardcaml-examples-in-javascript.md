@@ -30,16 +30,16 @@ A design compatible with the framework should implement the signature given in
 module My_design = struct
 
   let name = "design_name"
-  let desc = "desdign description (in markdown)"
+  let desc = "design description (in markdown)"
 
   (* configuration *)
   module Hw_config = struct
     include interface (* design parameters *) end
-    let params = (* default parameters *) end
+    let params = (* default parameters *) 
   end
   module Tb_config = struct
     include interface (* testbench parameters *) end
-    let params = (* default parameters *) end
+    let params = (* default parameters *) 
   end
   
   let validate hw tb = (* parameter validation *)
